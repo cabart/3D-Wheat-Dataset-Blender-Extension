@@ -1,0 +1,23 @@
+{
+    "plants": {
+        "iteration_step": 200,
+        "canopy_seed": 1,
+        "model": "wheat",
+        "canopy_plants_x": 4,
+        "canopy_plants_y": 4,
+        "canopy_distance_x": 15,
+        "canopy_distance_y": 15
+    },
+    "rendering": {
+        "camera_placement_train": "fibonacci_lattice_cap",
+        "camera_placement_test": "fibonacci_lattice_hemisphere_inverse_spiral",
+        "radius_train": 250,
+        "radius_test": 250,
+        "center_train": [0,0,50],
+        "center_test": [0,0,50],
+        "train_frames_total": 20,
+        "test_frames_total": 20,
+        "render_samples": 512,
+        "point_cloud_samples": 100000
+    }
+}
