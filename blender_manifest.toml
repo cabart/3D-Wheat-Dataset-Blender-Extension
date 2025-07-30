@@ -13,13 +13,10 @@ license = ["SPDX:GPL-3.0-or-later"]
 
 platforms = ["windows-x64", "linux-x64"]
 wheels = [
-    "./wheels/numpy-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-    "./wheels/numpy-2.2.3-cp311-cp311-win_amd64.whl",
-    "./wheels/scipy-1.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-    "./wheels/scipy-1.15.2-cp311-cp311-win_amd64.whl",
+    "./wheels/pillow-11.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
     "./wheels/tqdm-4.67.1-py3-none-any.whl",
-    "./wheels/pillow-11.1.0-cp311-cp311-win_amd64.whl",
-    "./wheels/pillow-11.1.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+    "./wheels/numpy-2.3.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "./wheels/scipy-1.16.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 ]
 
 [permissions]

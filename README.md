@@ -11,7 +11,9 @@ A blender extension for creating and rendering 3D wheat plants.
 
   - Install `Dynamic Sky` extension (Version 1.0.6 at time of writing)
   - Run `./install.sh` installation script (downloads the Python wheels and creates a zip file of the extension)
-  - In Blender > Preferences > Install from disk... > (Choose zipped file in parent directory)
+  - Use one of the following two options to add the extension to Blender:
+    1. Manual: In Blender > Preferences > Install from disk... > (Choose zipped file in parent directory)
+    2. Script (Linux only): Run `./update.sh`
   - Check rendering devices uses GPU (Preferences > System > Cycles Render Devices > CUDA)
 - Python dependencies
   - They come packaged within the extension (wheel files). If this breaks in the future update the wheel versions e.g. see versions for [scipy](https://pypi.org/project/scipy/#files). `pdate the version numbers also in the blender_manifest.toml`
@@ -41,3 +43,4 @@ blender --background --python <python-script-to-run-at-startup> -- -a <Argument 
 ### TODO Clean up
 
 - [ ] Add image textures for wheat model
+- [ ] Add Windows support for installation scripts
