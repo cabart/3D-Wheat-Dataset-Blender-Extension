@@ -1,5 +1,7 @@
 # ---
 
+# Ignore local Python Wheels
+wheels/
 
 # Ignore built extensions
 *.zip
