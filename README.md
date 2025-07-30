@@ -2,9 +2,13 @@
 
 A blender extension for creating and rendering 3D wheat plants.
 
+## Prerequisites
+
+- Python installation with Pip (for Python Wheels download)
+- Blender (Version 4.2.3 LTS, uses Python version 3.11 internally)
+
 ## Installation
 
-- Installation of Blender (Version 4.2.3 LTS, uses Python version 3.11 internally)
   - Install `Dynamic Sky` extension (Version 1.0.6 at time of writing)
   - Run `./install.sh` installation script (downloads the Python wheels and creates a zip file of the extension)
   - In Blender > Preferences > Install from disk... > (Choose zipped file in parent directory)
